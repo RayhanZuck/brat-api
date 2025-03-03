@@ -34,9 +34,8 @@ app.use('*', async (req, res) => {
   const hit = fetchCount()
   if (!text) return res.status(200).json({
     author: 'zennn08 (aqul)',
-    repository: {
-      github: 'https://github.com/zennn08/brat-api/'
-    },
+    github: 'https://github.com/RayhanZuck/',
+    swagger: 'https://rayhanzuck.vercel.app / https://rayhanzuck.netlify.app'
     hit: await hit,
     message: "Parameter `text` diperlukan",
     runtime: {

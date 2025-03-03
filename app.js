@@ -33,7 +33,7 @@ app.use('*', async (req, res) => {
   const text = req.query.text
   const hit = fetchCount()
   if (!text) return res.status(200).json({
-    author: 'zennn08 (aqul)',
+    author: 'RayhanZuck',
     github: 'https://github.com/RayhanZuck/',
     swagger: 'https://rayhanzuck.vercel.app / https://rayhanzuck.netlify.app',
     hit: await hit,

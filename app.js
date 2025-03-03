@@ -35,7 +35,7 @@ app.use('*', async (req, res) => {
   if (!text) return res.status(200).json({
     author: 'zennn08 (aqul)',
     github: 'https://github.com/RayhanZuck/',
-    swagger: 'https://rayhanzuck.vercel.app / https://rayhanzuck.netlify.app'
+    swagger: 'https://rayhanzuck.vercel.app / https://rayhanzuck.netlify.app',
     hit: await hit,
     message: "Parameter `text` diperlukan",
     runtime: {
